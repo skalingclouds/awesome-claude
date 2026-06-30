@@ -1,5 +1,27 @@
 # @heyclaude/mcp Changelog
 
+## [0.7.0](https://github.com/skalingclouds/awesome-claude/compare/mcp-v0.6.0...mcp-v0.7.0) (2026-06-30)
+
+
+### Features
+
+* **mcp:** add compare_entry_trust read-only helper ([#4215](https://github.com/skalingclouds/awesome-claude/issues/4215)) ([7f3c439](https://github.com/skalingclouds/awesome-claude/commit/7f3c43960ac10e1c0cc093578873c1d34ee58fe0))
+* **mcp:** cache parsed artifacts and add search_registry tag filter ([#4211](https://github.com/skalingclouds/awesome-claude/issues/4211)) ([0446b40](https://github.com/skalingclouds/awesome-claude/commit/0446b403163136b4729dcfdd4f5b4488550ef52e))
+* **mcp:** list HeyClaude MCP server on MCP Registry + Smithery and automate releases ([#4216](https://github.com/skalingclouds/awesome-claude/issues/4216)) ([0666547](https://github.com/skalingclouds/awesome-claude/commit/0666547dc130ca44841cc7ab096ac327e4dbbb47))
+* **mcp:** rename tools to dot-notation for Smithery 100/100 naming score ([#4223](https://github.com/skalingclouds/awesome-claude/issues/4223)) ([343d993](https://github.com/skalingclouds/awesome-claude/commit/343d9939c8f388ed8ce618b40290b6a1a11011fa))
+* **mcp:** Smithery quality — parameter descriptions, naming, badge ([#4218](https://github.com/skalingclouds/awesome-claude/issues/4218)) ([41aac15](https://github.com/skalingclouds/awesome-claude/commit/41aac1514dfd7453868c41034721ffb9bb295e4d))
+* **search:** share registry ranking across web and mcp ([#4242](https://github.com/skalingclouds/awesome-claude/issues/4242)) ([c8cb601](https://github.com/skalingclouds/awesome-claude/commit/c8cb601abf6ea75badaaa67a0bd9374398508270))
+* **seo:** canonical platform taxonomy across registry, search, and MCP ([#4096](https://github.com/skalingclouds/awesome-claude/issues/4096)) ([7a0cda0](https://github.com/skalingclouds/awesome-claude/commit/7a0cda03830e59a2b5dd1187252ebdf393c2147b))
+* **web:** extract submission preflight lib and finish search alias unification ([#4248](https://github.com/skalingclouds/awesome-claude/issues/4248)) ([1f1a240](https://github.com/skalingclouds/awesome-claude/commit/1f1a2406beb284ce0499bf097acccd63a6c82d7e))
+
+
+### Bug Fixes
+
+* **mcp:** expose duplicate URL inputs ([5ad0f8c](https://github.com/skalingclouds/awesome-claude/commit/5ad0f8c9a6a9638ac6776c761d26ba6c8b116452))
+* **mcp:** merge singleton namespaces into registry.* for Smithery naming tree ([#4227](https://github.com/skalingclouds/awesome-claude/issues/4227)) ([9af8a61](https://github.com/skalingclouds/awesome-claude/commit/9af8a61fb3373807a46b1fec909c0eea11b4038d))
+* **mcp:** rename plan_workflow_toolbox to workflow.plan for dot-notation naming ([#4225](https://github.com/skalingclouds/awesome-claude/issues/4225)) ([930f343](https://github.com/skalingclouds/awesome-claude/commit/930f343619548c5414c6b4f5697ac2067993db3d))
+* **mcp:** rename prompts to dot-notation for Smithery naming 100/100 ([#4230](https://github.com/skalingclouds/awesome-claude/issues/4230)) ([633ee17](https://github.com/skalingclouds/awesome-claude/commit/633ee17aea08ff0117d9f53d378f9f1edaf40f35))
+
 ## [0.6.0](https://github.com/JSONbored/awesome-claude/compare/mcp-v0.5.3...mcp-v0.6.0) (2026-06-29)
 
 
