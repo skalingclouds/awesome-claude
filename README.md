@@ -12,7 +12,7 @@
         templates, and statuslines.
       </p>
       <p>
-        <strong>1336+ file-backed entries</strong> stay useful as both an
+        <strong>1339+ file-backed entries</strong> stay useful as both an
         awesome-list catalog and a machine-readable registry for builders.
       </p>
       <p>
@@ -36,7 +36,7 @@
       <h3>Registry snapshot</h3>
       <table>
         <tr>
-          <td align="center"><strong>1336</strong><br><sub>entries</sub></td>
+          <td align="center"><strong>1339</strong><br><sub>entries</sub></td>
           <td align="center"><strong>10</strong><br><sub>sections</sub></td>
           <td align="center"><strong>human</strong><br><sub>merge gate</sub></td>
         </tr>
@@ -48,6 +48,7 @@
       </table>
       <p>
         <a href="https://github.com/hesreallyhim/awesome-claude-code/blob/main/README_ALTERNATIVES/README_EXTRA.md#workflows--knowledge-guides-"><img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome Claude Code"></a>
+        <a href="https://smithery.ai/servers/heyclaude/heyclaude"><img src="https://smithery.ai/badge/heyclaude/heyclaude" alt="Listed on Smithery"></a>
       </p>
       <p>
         <a href="https://gittensor.io/repositories"><img src="https://gittensor.io/favicon.ico" alt="" height="16" align="absmiddle"> <strong>Listed on Gittensor</strong></a><br>
@@ -68,7 +69,7 @@
         </td>
 <td align="center" width="20%">
           <a href="#mcp-servers"><strong>🔌 MCP Servers</strong></a><br>
-          <code>464</code><br>
+          <code>467</code><br>
           <sub>Model Context Protocol servers and integrations.</sub>
         </td>
 <td align="center" width="20%">
@@ -296,7 +297,7 @@ packages use checksums and package trust metadata after review.
 - **[Web Async Agent Coordinator - Agents](https://heyclau.de/entry/agents/web-async-agent-coordinator)** - System-prompt agent that helps you drive Claude Code on the web: submitting long-running coding tasks to Anthropic's cloud, running independent sessions in parallel, linking GitHub repositories, tracking progress, and turning finished work into pull requests from the browser.
 - **[Zero Data Retention Compliance Agent](https://heyclau.de/entry/agents/zero-data-retention-compliance-agent)** - Community reusable agent prompt for mapping Claude Code deployments to zero data retention requirements using official ZDR docs: logging boundaries, MCP data flows, session storage, and compliance evidence checklists for security review.
 
-## 🔌 MCP Servers (464)
+## 🔌 MCP Servers (467)
 
 - **[Ableton MCP Extended](https://heyclau.de/entry/mcp/ableton-mcp-extended)** - Source-install MCP server for controlling Ableton Live from Claude, including session inspection, track and clip creation, MIDI note editing, tempo and transport control, browser item loading, arrangement workflows, device parameters, automation, external plugins, audio imports, and optional ElevenLabs.
 - **[ABMeter MCP Server](https://heyclau.de/entry/mcp/abmeter-mcp-server)** - ABMeter MCP exposes experimentation and analytics tooling over streamable HTTP for MCP clients.
@@ -394,6 +395,7 @@ packages use checksums and package trust metadata after review.
 - **[BrowserMCP Server](https://heyclau.de/entry/mcp/browsermcp-server)** - Browser automation MCP server and Chrome extension that lets AI applications control a connected tab in the user's existing browser profile.
 - **[BrowserStack MCP Server for Claude](https://heyclau.de/entry/mcp/browserstack-mcp-server)** - Connect Claude to BrowserStack for permission-scoped web, app, accessibility, and test automation workflows.
 - **[Burp Suite MCP Server](https://heyclau.de/entry/mcp/burp-suite-mcp-server)** - PortSwigger's Burp Suite MCP Server extension connects Burp Suite to MCP clients through an SSE server or packaged stdio proxy for request, Repeater, Intruder, history, scanner, Collaborator, and configuration workflows.
+- **[BuyWhere MCP Server](https://heyclau.de/entry/mcp/buywhere-mcp-server)** - Real-time product search and price comparison across 11M+ products from Singapore, Southeast Asia, and US marketplaces via a remote streamable-HTTP MCP endpoint with API key auth.
 - **[ByteRay AI MCP Server](https://heyclau.de/entry/mcp/byteray-ai-mcp-server)** - ByteRay MCP provides AI-augmented binary vulnerability analysis with taint tracing and zero-day hunting tools.
 - **[CalendarMCP MCP Server](https://heyclau.de/entry/mcp/calendarmcp-mcp-server)** - Hosted Google Calendar MCP server that lets compatible AI clients read, create, update, delete, search, and batch-edit calendar events through an HTTP endpoint and API-key authentication.
 - **[Canva MCP Server for Claude](https://heyclau.de/entry/mcp/canva-mcp-server)** - Browse, summarize, and generate Canva designs directly from Claude
@@ -485,6 +487,7 @@ packages use checksums and package trust metadata after review.
 - **[Figma Context MCP Server](https://heyclau.de/entry/mcp/figma-context-mcp-server)** - Framelink MCP server that gives AI coding agents simplified Figma layout, styling, and design context for implementing Figma frames in code.
 - **[Figma MCP Server for Claude](https://heyclau.de/entry/mcp/figma-mcp-server)** - Access designs, export assets, and interact with Figma files through Claude
 - **[Filesystem MCP Server - MCP Servers](https://heyclau.de/entry/mcp/filesystem-mcp-server)** - Official MCP server providing secure file system operations for Claude Desktop and Claude Code
+- **[FilingFirehose MCP Server](https://heyclau.de/entry/mcp/filingfirehose-mcp-server)** - Remote MCP server over US SEC EDGAR filings — parsed 8-K (with body-text detection of suspected misclassifications under Item 8.01), Schedule 13D/G with activist filer tagging, and S-3 / 424B5 ATM-offering detection.
 - **[Financial Datasets MCP Server](https://heyclau.de/entry/mcp/financial-datasets-mcp-server)** - Python MCP server that lets Claude query Financial Datasets for stock statements, prices, company news, crypto prices, and SEC filings.
 - **[Firebase MCP Server](https://heyclau.de/entry/mcp/firebase-mcp-server)** - Official Firebase MCP server bundled with Firebase CLI, giving Claude project, app, Auth, Firestore, Realtime Database, Storage, Crashlytics, Data Connect, Functions, Messaging, Remote Config, rules, and deploy capabilities.
 - **[Firecrawl MCP Server](https://heyclau.de/entry/mcp/firecrawl-mcp-server)** - Official Firecrawl MCP server for scraping, crawling, mapping, searching, and extracting web content through Claude Code, Claude Desktop, Cursor, VS Code, Windsurf, and other MCP clients.
@@ -505,7 +508,7 @@ packages use checksums and package trust metadata after review.
 - **[GitLab MCP Server for Claude](https://heyclau.de/entry/mcp/gitlab-mcp-server)** - Official GitLab MCP server that connects Claude and other MCP clients to GitLab projects, issues, merge requests, pipelines, job logs, labels, work items, and semantic code search through OAuth.
 - **[GitMCP Docs Server](https://heyclau.de/entry/mcp/gitmcp-docs-server)** - Remote MCP server that turns any GitHub repository or GitHub Pages site into a documentation and code context source for AI coding assistants.
 - **[Gittensory MCP Server for Claude](https://heyclau.de/entry/mcp/gittensory-mcp)** - Gittensory MCP connects Claude and other MCP clients to private, metadata-only Gittensor contribution mining workflows for branch preflight, scoreability estimates, maintainer-fit checks, and public-safe PR packets.
-- **[Glean MCP Server for Claude](https://heyclau.de/entry/mcp/glean-mcp-server)** - Connect Claude to Glean — run company-wide enterprise search and chat with Glean Assistant across your connected workplace apps — with the official Glean Model Context Protocol server.
+- **[Glean MCP Server for Claude](https://heyclau.de/entry/mcp/glean-mcp-server)** - Connect Claude to Glean — run company-wide enterprise search and chat with the Glean AI Assistant across your connected workplace apps — with the official MCP server for the Glean platform.
 - **[Godot MCP Server](https://heyclau.de/entry/mcp/godot-mcp-server)** - MCP server for controlling the Godot game engine, launching the editor, running projects, capturing debug output, and editing scenes and resources.
 - **[Google Analytics MCP Server](https://heyclau.de/entry/mcp/google-analytics-mcp-server)** - Experimental Google Analytics MCP server that lets Claude retrieve GA4 account and property details, Google Ads links, custom dimensions and metrics, core reports, funnel reports, and realtime reports.
 - **[Google Search Console MCP Server](https://heyclau.de/entry/mcp/google-search-console-mcp-server)** - MCP server for Google Search Console that lets Claude list properties, inspect indexing status, query search analytics, compare performance periods, audit sitemaps, and manage Search Console resources with guarded destructive tools.
@@ -515,7 +518,7 @@ packages use checksums and package trust metadata after review.
 - **[Graphlit MCP Server](https://heyclau.de/entry/mcp/graphlit-mcp-server)** - MCP server for the Graphlit platform, enabling Claude to ingest, search, retrieve, organize, and operate on files, web pages, feeds, collections, conversations, memory, connectors, crawls, and RAG-ready project knowledge.
 - **[GraphQL MCP Server](https://heyclau.de/entry/mcp/graphql-mcp-server)** - Generic GraphQL MCP server for schema introspection, schema resources, and GraphQL query execution against a configured endpoint.
 - **[Groq MCP Server for Claude](https://heyclau.de/entry/mcp/groq-mcp-server)** - Query Groq's ultra-fast inference models from Claude — vision, text-to-speech, speech-to-text, batch processing, and agentic compound-beta tools with web search and code execution — using the official Groq Model Context Protocol server.
-- **[GrowthBook MCP Server for Claude](https://heyclau.de/entry/mcp/growthbook-mcp-server)** - Manage A/B experiments and feature flags in GrowthBook from Claude — list and create experiments, manage feature flags, check experiment results, and interact with your GrowthBook workspace — with the official GrowthBook MCP server.
+- **[GrowthBook MCP Server for Claude](https://heyclau.de/entry/mcp/growthbook-mcp-server)** - Manage A/B tests and feature flags in GrowthBook from Claude — list and create experiments, toggle rollouts, review test results, and interact with your GrowthBook workspace — with the official GrowthBook MCP server.
 - **[HAPI MCP Server](https://heyclau.de/entry/mcp/hapi-mcp-server)** - HAPI MCP exposes OpenAPI specifications as MCP tools dynamically using the la-rebelion hapimcp project and MCP Registry package ai.com.mcp/hapi-mcp.
 - **[Harness MCP Server for Claude](https://heyclau.de/entry/mcp/harness-mcp-server)** - Access the entire Harness.io DevOps platform from Claude — CI/CD pipelines, GitOps, feature flags, cloud cost, security testing, chaos engineering, and more — through 11 consolidated tools covering 216 resource types across 36 toolsets, with 32 built-in prompt templates.
 - **[Headroom MCP Server](https://heyclau.de/entry/mcp/headroom-mcp-server)** - Local-first context compression MCP server for reducing tool outputs, logs, files, RAG chunks, and agent context before they reach the model.
@@ -572,7 +575,7 @@ packages use checksums and package trust metadata after review.
 - **[Mac Messages MCP Server](https://heyclau.de/entry/mcp/mac-messages-mcp-server)** - macOS Messages MCP server that lets Claude read recent conversations, search messages, inspect contacts and chats, fetch attachments, and send iMessage or SMS/RCS messages.
 - **[macOS Automator MCP](https://heyclau.de/entry/mcp/macos-automator-mcp)** - MCP server for running AppleScript and JavaScript for Automation on macOS, with a searchable knowledge base of automation recipes for apps, files, browsers, system settings, Terminal, and productivity workflows.
 - **[Magic MCP Server for Claude](https://heyclau.de/entry/mcp/magic-mcp-server)** - Magic MCP by 21st.dev lets Claude generate polished, production-ready UI components from natural language, returning React and Tailwind code you can drop straight into a project.
-- **[Magic UI MCP Server for Claude](https://heyclau.de/entry/mcp/magicui-mcp-server)** - Browse and install Magic UI animated React components from Claude — search the component registry by name or keyword, retrieve full installation details for any component, and get guided setup instructions — with the official Magic UI MCP server.
+- **[Magic UI MCP Server for Claude](https://heyclau.de/entry/mcp/magicui-mcp-server)** - Browse and install Magic UI animated React components from Claude — search the library by name or keyword, retrieve full installation details for any entry, and get guided setup instructions — with the official Magic UI MCP server.
 - **[Mapbox MCP Server](https://heyclau.de/entry/mcp/mapbox-mcp-server)** - Official Mapbox MCP server for geocoding, POI search, routing, travel-time matrices, isochrones, static maps, and geospatial calculations in Claude.
 - **[MariaDB MCP Server](https://heyclau.de/entry/mcp/mariadb-mcp-server)** - Official MariaDB MCP server for schema inspection, read-only SQL, optional database creation, and vector-store search against MariaDB databases.
 - **[Markdownify MCP Server](https://heyclau.de/entry/mcp/markdownify-mcp-server)** - MCP server that converts PDFs, Office files, images, audio, webpages, YouTube transcripts, and existing Markdown files into Markdown.
@@ -653,6 +656,7 @@ packages use checksums and package trust metadata after review.
 - **[Pentest AI MCP Server](https://heyclau.de/entry/mcp/pentest-ai-mcp-server)** - Offensive-security MCP server from pentest-ai that lets Claude list and run wrapped security tools, plan and install missing tools, launch authorized engagements, run web, recon, API, cloud, AD, credential, vulnerability, mobile, wireless, and LLM-red-team assessments, and retrieve findings, attack chains, reports.
 - **[Perplexity MCP Server for Claude](https://heyclau.de/entry/mcp/perplexity-mcp-server)** - Official Perplexity MCP server that connects Claude to the Perplexity Sonar API for real-time, web-grounded answers with citations, so responses can draw on current information beyond the model's training data.
 - **[pg-aiguide MCP Server](https://heyclau.de/entry/mcp/pg-aiguide-mcp-server)** - PostgreSQL documentation and best-practice MCP server from Timescale that gives Claude semantic and keyword search across PostgreSQL, TimescaleDB, and PostGIS docs.
+- **[Phronesis](https://heyclau.de/entry/mcp/phronesis-hermes)** - Decision-assurance layer for AI agents: returns calibrated Decision Assets and an auditable action boundary (approve / review / block / seek-evidence) plus a verifiable Decision Receipt before high-stakes actions. Advisory only — never transacts or modifies identity. MCP tools: health_check and bench_query.
 - **[Pinecone Developer MCP Server](https://heyclau.de/entry/mcp/pinecone-developer-mcp-server)** - Official Pinecone Developer MCP server that connects Claude and other MCP clients to Pinecone projects and documentation for index management, record upserts, semantic search, cascading multi-index search, reranking, and documentation lookup over integrated-inference indexes.
 - **[Plaid MCP Server for Claude](https://heyclau.de/entry/mcp/plaid-mcp-server)** - Analyze, troubleshoot, and optimize Plaid integrations for banking data and financial account linking
 - **[Plane MCP Server](https://heyclau.de/entry/mcp/plane-mcp-server)** - Official Plane MCP server for connecting Claude to Plane projects, work items, cycles, modules, initiatives, comments, links, work logs, pages, and workspace metadata.
@@ -1108,7 +1112,7 @@ Get a free API key on https://app.zyntra.app/
 - **[Subagent Transcript Cleanup Capability Pack Skill](https://heyclau.de/entry/skills/subagent-transcript-cleanup-capability-pack)** - Expert capability pack for reviewing Claude Code subagent transcript files, documented retention settings, compaction events, and summary handoff so verbose delegated work stays out of the main conversation.
 - **[Supabase Agent Skills](https://heyclau.de/entry/skills/supabase-agent-skills)** - Official Supabase Agent Skills for AI coding agents working with Supabase Database, Auth, Edge Functions, Realtime, Storage, Vectors, CLI, MCP, RLS, migrations, and Postgres performance.
 - **[Supabase Realtime Database Builder Skill](https://heyclau.de/entry/skills/supabase-realtime-database)** - Build full-stack apps on Supabase via @supabase/supabase-js: a hosted Postgres database with row-level security, realtime subscriptions over websockets, Auth, storage, Edge Functions for serverless logic, and pgvector for embeddings.
-- **[Superpowers Skills](https://heyclau.de/entry/skills/superpowers-skills)** - MIT-licensed Superpowers skill and plugin framework by Jesse Vincent for Claude Code, Codex App, Codex CLI, Cursor, Gemini CLI, Antigravity, Kimi Code, OpenCode, Pi, GitHub Copilot CLI, and other coding agents, covering brainstorming, planning, TDD, systematic debugging, subagent-driven development, code review, git worktrees, and finish-the-branch workflows.
+- **[Superpowers Skills](https://heyclau.de/entry/skills/superpowers-skills)** - MIT-licensed skill and plugin framework by Jesse Vincent for Claude Code, Codex, Cursor, Gemini CLI, OpenCode, and other AI coding agents, covering brainstorming, planning, TDD, systematic debugging, subagent-driven development, code review, git worktrees, and finish-the-branch workflows.
 - **[Svelte SvelteKit Full-Stack Development Skill](https://heyclau.de/entry/skills/svelte-sveltekit-fullstack)** - Build full-stack web apps with Svelte and SvelteKit. Minimal runtime overhead, reactive components, and server-side rendering. The most admired frontend framework of 2025. Svelte compiles components to vanilla JavaScript at build time, resulting in zero runtime overhead and exceptional performance.
 - **[TanStack Query Data Fetching Skill](https://heyclau.de/entry/skills/tanstack-query-data-fetching)** - Build React server-state workflows with TanStack Query v5, including query keys, QueryClient setup, cache defaults, mutations, invalidation, hydration, retries, and privacy-aware data handling.
 - **[tRPC Type-Safe API Builder Skill](https://heyclau.de/entry/skills/trpc-type-safe-api)** - Build end-to-end type-safe APIs with tRPC and TypeScript, eliminating code generation and runtime bloat for full-stack applications. tRPC provides end-to-end type safety without code generation, schema stitching, or serialization layers - delivering a lighter, more intuitive developer experience than REST or GraphQL.

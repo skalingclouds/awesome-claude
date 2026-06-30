@@ -55,6 +55,39 @@ describe("saved-search in-app alert matching", () => {
     expect(savedSearchQueryMatchesEntry(entry, "postgres memory")).toBe(true);
     expect(savedSearchQueryMatchesEntry(entry, "repo memory")).toBe(true);
     expect(savedSearchQueryMatchesEntry(entry, "calendar memory")).toBe(false);
+    expect(savedSearchQueryMatchesEntry(entry, "")).toBe(true);
+    expect(savedSearchQueryMatchesEntry(entry, undefined)).toBe(true);
+    expect(savedSearchQueryMatchesEntry(entry, ",,,")).toBe(false);
+    expect(savedSearchQueryMatchesEntry(entry, "mcp")).toBe(true);
+  });
+
+  it("uses the shared alias map for saved-search query expansion", () => {
+    const automationEntry: SavedSearchAlertEntry = {
+      ...entry,
+      title: "QA Automation MCP",
+      tags: ["testing", "qa"],
+      keywords: ["automated browser checks"],
+    };
+
+    expect(savedSearchQueryMatchesEntry(automationEntry, "automation qa")).toBe(
+      true,
+    );
+    expect(savedSearchQueryMatchesEntry(automationEntry, "design ux")).toBe(
+      false,
+    );
+  });
+
+  it("does not treat prototype property names as alias keys", () => {
+    const oddEntry: SavedSearchAlertEntry = {
+      ...entry,
+      title: "Constructor Fixture",
+      keywords: ["constructor"],
+    };
+
+    expect(savedSearchQueryMatchesEntry(oddEntry, "constructor")).toBe(true);
+    expect(
+      savedSearchQueryMatchesEntry(oddEntry, "constructor spreadsheet"),
+    ).toBe(false);
   });
 
   it("honors category, platform, trust, and source filters", () => {

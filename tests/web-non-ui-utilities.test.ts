@@ -22,7 +22,10 @@ import { ENTRIES } from "../apps/web/src/data/entries";
 import { COMPARISONS } from "../apps/web/src/data/comparisons";
 import {
   CONTRIBUTORS,
+  contributorAcceptedEntryRole,
   contributorForVerifiedAuthor,
+  contributorMatchesIdentity,
+  contributorReviewedEntry,
   contributorSlug,
   getContributor,
   githubHandle,
@@ -317,6 +320,25 @@ describe("web non-UI utility coverage", () => {
     expect(
       (full.html.match(/border-bottom:1px solid #f0ede4/g) ?? []).length,
     ).toBe(2);
+
+    const prototypeCategory = buildBriefEmail({
+      brief: {
+        sections: {
+          newEntries: [
+            {
+              title: "Prototype category label",
+              url: "/entry/tools/prototype",
+              category: "constructor",
+              description: "Should render a human label, not Object.prototype.",
+            },
+          ],
+        },
+      },
+      siteUrl: "https://heyclau.de",
+      dateLabel: "2026-06-19",
+    });
+    expect(prototypeCategory.text).toContain("[Constructor]");
+    expect(prototypeCategory.text).not.toContain("[Function:");
   });
 
   it("signs brief approval tokens and rejects tampered, malformed, and expired tokens", async () => {
@@ -596,6 +618,13 @@ describe("web non-UI utility coverage", () => {
     expect(getContributor(topContributor.slug)).toBe(topContributor);
     expect(topContributor.acceptedCount).toBeGreaterThan(0);
     expect(
+      topContributor.categories?.reduce((sum, item) => sum + item.count, 0),
+    ).toBe(topContributor.acceptedCount);
+    expect(topContributor.sourceSubmissionCount ?? 0).toBeLessThanOrEqual(
+      topContributor.acceptedCount,
+    );
+    expect(topContributor.reviewedCount ?? 0).toBeGreaterThanOrEqual(0);
+    expect(
       contributorForVerifiedAuthor(topContributor.name, topContributor.name),
     ).toBe(topContributor);
     expect(
@@ -814,6 +843,50 @@ describe("web non-UI utility coverage", () => {
     expect(contentTypeFor("/feed.xml")).toBe("xml");
     expect(contentTypeFor("/llms.txt")).toBe("txt");
     expect(contentTypeFor("/data/feed.json")).toBe("json");
+
+    const contributor = {
+      slug: "jane-doe",
+      handle: "janedoe",
+      name: "Jane Doe",
+      github: "https://github.com/janedoe",
+      acceptedCount: 1,
+    };
+    expect(contributorMatchesIdentity(contributor, "Jane Doe")).toBe(true);
+    expect(contributorMatchesIdentity(contributor, "janedoe")).toBe(true);
+    expect(
+      contributorMatchesIdentity(
+        contributor,
+        "Jane",
+        "https://github.com/janedoe",
+      ),
+    ).toBe(true);
+    expect(contributorMatchesIdentity(contributor, "Other Person")).toBe(false);
+    expect(
+      contributorAcceptedEntryRole(
+        contributor,
+        entry({
+          author: "Example",
+          submittedBy: "Jane Doe",
+          submittedByUrl: "https://github.com/janedoe",
+        }),
+      ),
+    ).toBe("submitted");
+    expect(
+      contributorAcceptedEntryRole(contributor, entry({ author: "janedoe" })),
+    ).toBe("authored");
+    expect(
+      contributorAcceptedEntryRole(
+        contributor,
+        entry({
+          author: "Jane Doe",
+          submittedBy: "Jane Doe",
+          submittedByUrl: "https://github.com/janedoe",
+        }),
+      ),
+    ).toBe("submitted-authored");
+    expect(
+      contributorReviewedEntry(contributor, entry({ reviewedBy: "janedoe" })),
+    ).toBe(true);
     expect(contributorSlug(" @Example User! ")).toBe("example-user");
     expect(githubHandle("https://github.com/JSONbored")).toBe("JSONbored");
     expect(githubHandle("https://example.com/JSONbored")).toBeUndefined();
