@@ -12,7 +12,7 @@
         templates, and statuslines.
       </p>
       <p>
-        <strong>1339+ file-backed entries</strong> stay useful as both an
+        <strong>1336+ file-backed entries</strong> stay useful as both an
         awesome-list catalog and a machine-readable registry for builders.
       </p>
       <p>
@@ -36,7 +36,7 @@
       <h3>Registry snapshot</h3>
       <table>
         <tr>
-          <td align="center"><strong>1339</strong><br><sub>entries</sub></td>
+          <td align="center"><strong>1336</strong><br><sub>entries</sub></td>
           <td align="center"><strong>10</strong><br><sub>sections</sub></td>
           <td align="center"><strong>human</strong><br><sub>merge gate</sub></td>
         </tr>
@@ -74,12 +74,12 @@
         </td>
 <td align="center" width="20%">
           <a href="#tools"><strong>🧰 Tools</strong></a><br>
-          <code>183</code><br>
+          <code>182</code><br>
           <sub>Apps, developer tools, services, and products for Claude-native builders.</sub>
         </td>
 <td align="center" width="20%">
           <a href="#skills"><strong>🧠 Skills</strong></a><br>
-          <code>175</code><br>
+          <code>174</code><br>
           <sub>Source-backed skill packs and reusable capabilities.</sub>
         </td>
 <td align="center" width="20%">
@@ -91,7 +91,7 @@
 <tr>
 <td align="center" width="20%">
           <a href="#commands"><strong>⌨️ Commands</strong></a><br>
-          <code>43</code><br>
+          <code>42</code><br>
           <sub>Slash commands and reusable command prompts.</sub>
         </td>
 <td align="center" width="20%">
@@ -769,7 +769,7 @@ packages use checksums and package trust metadata after review.
 
 Get a free API key on https://app.zyntra.app/
 
-## 🧰 Tools (183)
+## 🧰 Tools (182)
 
 - **[Activepieces](https://heyclau.de/entry/tools/activepieces)** - Open-source, self-hostable workflow automation platform with AI workflows, TypeScript pieces, human-in-the-loop steps, and a built-in MCP server.
 - **[AG2 Agent Framework](https://heyclau.de/entry/tools/ag2-agent-framework)** - Open-source Python AgentOS and multi-agent framework, evolved from AutoGen, for building conversable agents, group chats, swarms, human-in-the-loop workflows, tool use, RAG, code execution, and provider-backed agent systems.
@@ -779,7 +779,6 @@ Get a free API key on https://app.zyntra.app/
 - **[Agno](https://heyclau.de/entry/tools/agno)** - Open-source SDK and runtime for building, running, and managing agent platforms with agents, teams, workflows, memory, knowledge, tools, MCP, and AgentOS.
 - **[Aider](https://heyclau.de/entry/tools/aider)** - Open-source terminal coding assistant that edits files in Git repositories using chat-driven development loops.
 - **[AnythingLLM](https://heyclau.de/entry/tools/anythingllm)** - Local-first AI application for private chat, document RAG, workspace agents, MCP-compatible tools, model routing, memories, scheduled tasks, multimodal workflows, multi-user Docker deployments, and self-hosted agent automation.
-- **[Apache Airflow](https://heyclau.de/entry/tools/apache-airflow)** - Apache-2.0 platform for programmatically authoring, scheduling, monitoring, and operating workflow DAGs across workers, executors, providers, and task logs.
 - **[Apify](https://heyclau.de/entry/tools/apify)** - Web automation and scraping platform with actors, datasets, APIs, and integrations for data extraction workflows.
 - **[Arcade](https://heyclau.de/entry/tools/arcade-ai)** - Tool-calling platform for AI agents with authenticated actions, user approvals, and external service integrations.
 - **[Archon](https://heyclau.de/entry/tools/archon)** - Open-source workflow engine for AI coding agents that runs YAML-defined development processes with deterministic phases, isolated git worktrees, validation gates, and integration with Claude Code and other AI assistants.
@@ -955,7 +954,7 @@ Get a free API key on https://app.zyntra.app/
 - **[Zapier AI](https://heyclau.de/entry/tools/zapier-ai)** - Automation platform with AI-assisted workflows, app integrations, agents, actions, and business process automation.
 - **[Zed](https://heyclau.de/entry/tools/zed)** - Collaborative code editor with AI assistance, fast native performance, and developer-focused collaboration workflows.
 
-## 🧠 Skills (175)
+## 🧠 Skills (174)
 
 - **[Addy Osmani Agent Skills](https://heyclau.de/entry/skills/addy-osmani-agent-skills)** - Addy Osmani's production-grade Agent Skills pack for AI coding agents, with lifecycle slash commands, engineering workflow skills, review personas, quality gates, and cross-agent setup guidance for Claude Code, Cursor, Gemini CLI, Antigravity CLI, OpenCode, GitHub Copilot, and other agents.
 - **[Agent Evals Regression Gate Skill](https://heyclau.de/entry/skills/agent-evals-regression-gate)** - Build repeatable eval suites that catch quality regressions in AI agent behavior before merge or release.
@@ -1088,7 +1087,6 @@ Get a free API key on https://app.zyntra.app/
 - **[Playwright MCP Browser Automation Engineer Skill](https://heyclau.de/entry/skills/playwright-mcp-browser-automation-engineer)** - Build resilient browser automations using Playwright MCP with robust selectors, retries, and deterministic task execution.
 - **[Playwright Trace Failure Triage Capability Pack Skill](https://heyclau.de/entry/skills/playwright-trace-failure-triage-capability-pack)** - Expert skill for reviewing Playwright trace artifacts, screenshots, action timelines, network events, retries, and CI evidence to classify flaky browser test failures without guessing from logs alone.
 - **[PostgreSQL Query Optimization Skill](https://heyclau.de/entry/skills/postgresql-query-optimization)** - Analyze and optimize PostgreSQL queries for OLTP and OLAP workloads with AI-assisted performance tuning, indexing strategies, and execution plan analysis.
-- **[PostHog Next.js Product Analytics Skill](https://heyclau.de/entry/skills/posthog-nextjs-product-analytics)** - Add PostHog to a Next.js app with client and server event capture, user identification, feature flags, session replay privacy controls, reverse-proxy planning, and production analytics validation.
 - **[Privacy and Safety Notes Authoring Capability Pack Skill](https://heyclau.de/entry/skills/privacy-safety-notes-authoring-capability-pack)** - Expert capability pack for drafting accurate safetyNotes and privacyNotes on HeyClaude hooks, MCP servers, skills, commands, and statuslines using CONTRIBUTING.md disclosure requirements and submission examples.
 - **[Prompt Caching Cost Audit Capability Pack Skill](https://heyclau.de/entry/skills/prompt-caching-cost-audit-capability-pack)** - Expert prompt caching cost audit capability pack for measuring Claude Code cache hit rates, identifying cache invalidation triggers, and reducing token spend from CLAUDE.md edits, model switches, and startup load changes.
 - **[Prompt Injection Defense Guardrails Skill](https://heyclau.de/entry/skills/prompt-injection-defense-guardrails)** - Build layered defenses against prompt injection, data exfiltration, and unsafe tool execution in AI agent systems.
@@ -1219,7 +1217,7 @@ Get a free API key on https://app.zyntra.app/
 - **[Windsurf AI-Native IDE Patterns for Claude](https://heyclau.de/entry/rules/windsurf-ai-native-ide-patterns)** - Windsurf AI-native IDE specialist with Cascade AI, multi-file context awareness, and Flow collaboration patterns for Claude integration
 - **[Zod Expert - CLAUDE.md Rules for Claude Code](https://heyclau.de/entry/rules/zod-expert)** - Transform Claude into a Zod specialist with deep knowledge of schema design, parsing, refinements, transforms, and TypeScript inference for runtime validation.
 
-## ⌨️ Commands (43)
+## ⌨️ Commands (42)
 
 - **[/api-contract-check - API Contract Check Command for Claude Code](https://heyclau.de/entry/commands/api-contract-check)** - Slash command that runs consumer-driven contract verification for an HTTP API using Pact.
 - **[AutoGen Multi-Agent Workflow for Claude](https://heyclau.de/entry/commands/autogen-workflow)** - Orchestrate multi-agent workflows using Microsoft AutoGen v0.4 with role-based task delegation, conversation patterns, and collaborative problem solving
@@ -1228,7 +1226,6 @@ Get a free API key on https://app.zyntra.app/
 - **[/ci-failure-triage - CI Failure Triage Command for Claude Code](https://heyclau.de/entry/commands/ci-failure-triage)** - Slash command that triages a failing GitHub Actions run: it pulls the failed job logs with the GitHub CLI, isolates the first real error, classifies the failure (test, lint, type, build, dependency, or flaky), and proposes a targeted, minimal fix with the exact command to reproduce it locally.
 - **[Bootstrap CLAUDE.md with /init in Claude Code](https://heyclau.de/entry/commands/claudemd-builder)** - Use the built-in /init command to generate a project CLAUDE.md from your codebase, then refine it by hand. Covers /memory, file locations, @path imports, and .claude/rules/.
 - **[/deploy-readiness - Cloudflare Deploy Readiness Command for Claude Code](https://heyclau.de/entry/commands/cloudflare-deploy-readiness)** - Slash command that runs a pre-deploy readiness check for a Cloudflare Workers project before you ship.
-- **[Inspect Claude Code Context Usage with /context](https://heyclau.de/entry/commands/context-analyzer)** - Use the built-in /context command to inspect Claude Code's context-window usage, plus a custom .claude/commands recipe for repeatable codebase-context analysis before refactors.
 - **[/cursor-rules - Cursor Rules Generator for Claude Code](https://heyclau.de/entry/commands/cursor-rules)** - Generate .cursorrules files for AI-native development with project-specific patterns, coding standards, and intelligent context awareness
 - **[/debug - Debugging Assistant Command for Claude Code](https://heyclau.de/entry/commands/debug)** - Advanced debugging assistant with root cause analysis, step-by-step troubleshooting, and automated fix suggestions
 - **[/dependency-risk-review - Dependency Risk Review Command for Claude Code](https://heyclau.de/entry/commands/dependency-risk-review)** - Slash command that reviews the supply-chain risk of a project's dependencies using OpenSSF Scorecard health signals rather than CVE counts.
