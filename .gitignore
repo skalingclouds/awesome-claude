@@ -38,3 +38,4 @@ apps/web/.cache/
 !apps/web/migrations/*.sql
 !apps/submission-gate/migrations/
 !apps/submission-gate/migrations/*.sql
+*.mdx
